@@ -8,11 +8,13 @@ The exposed port of Apache can be configured in `./.env`
 Ports and and other configurations are set in the `docker-compose.yml` file.
 
 To enter one of the running docker images and run a command:
-```
+
+``` shell
 docker-compose exec <container name> <command name>
 ```
 
 For instance, this will open a bash shell in the MySQL container:
-```
+
+``` shell
 docker-compose exec db bash
 ```
